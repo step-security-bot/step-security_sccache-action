@@ -33,13 +33,13 @@ Just copy and paste the following in your GitHub action:
 
 ### Specify a given version of sccache
 
-Versions prior to sccache v0.10.0 probably will not work.
+Versions prior to sccache v0.11.0 probably will not work.
 
 ```yml
 - name: Run sccache-cache
   uses: step-security/sccache-action@v0
   with:
-    version: "v0.10.0"
+    version: "v0.16.0"
 ```
 
 ### To get the execution stats

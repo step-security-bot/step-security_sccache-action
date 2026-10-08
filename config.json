@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "onboarding_type": "copied",
+  "action_type": "node",
+  "upstream": {
+    "repository": "Mozilla-Actions/sccache-action",
+    "synced_tag": "v0.0.11",
+    "synced_commit": "fc920bf0ec8de6ee65d409111f7ec508035751ba",
+    "archived": false
+  },
+  "build": {
+    "package_manager": "npm@11.19.0",
+    "node_version": "24",
+    "script": "build"
+  }
+}
